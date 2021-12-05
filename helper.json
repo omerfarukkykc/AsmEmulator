@@ -1,0 +1,155 @@
+{
+    "Directives":[
+        {
+            "Code":"ORG", 
+            "Hex":"",
+            "Descripton":"Program hafızanın 0. adresinden itibaren başlar",
+            "Notation":""
+        },
+        {
+            "Code":"END", 
+            "Hex":"",
+            "Descripton":"Programın sonu",
+            "Notation":""
+        },
+        {
+            "Code":"DEC", 
+            "Hex":"",
+            "Descripton":"Desimal operasyon",
+            "Notation":""
+        },
+        {
+            "Code":"HEX", 
+            "Hex":"",
+            "Descripton":"",
+            "Notation":""
+        },
+        {
+            "Code":"BIN", 
+            "Hex":"",
+            "Descripton":"",
+            "Notation":""
+        }
+    ],
+    "MemoryReference":[
+        {
+            "Code":"OR", 
+            "Hex":"1",
+            "Descripton":"AC ile hafıza kelimesini OR'la",
+            "Notation":"Notasyon"
+        },
+        {
+            "Code":"AND", 
+            "Hex":"2",
+            "Descripton":"AC ile hafıza kelimesini AND'le",
+            "Notation":"DR <- M[AR].AC <- AC ^ DR,SC <- 0"
+        },
+        {
+            "Code":"XOR", 
+            "Hex":"3",
+            "Descripton":"AC ile hafıza kelimesini XOR'la",
+            "Notation":""
+        },
+        {
+            "Code":"ADD", 
+            "Hex":"4",
+            "Descripton":"AC ile hafıza kelimesini topla",
+            "Notation":"DR <- M[AR] AC <- AC + DR,E<- Cout,SC<-0"
+        },
+        {
+            "Code":"LDA", 
+            "Hex":"5",
+            "Descripton":"Hafıza kelimesini AC’ye yükle",
+            "Notation":"DR <- M[AR].AC <- DR,SC <- 0"
+        },
+        {
+            "Code":"STA", 
+            "Hex":"6",
+            "Descripton":"AC’nin içeriğini hafızaya depola",
+            "Notation":"M[AR] <- AC,SC <- 0"
+        },
+        {
+            "Code":"BUN", 
+            "Hex":"8",
+            "Descripton":"Şartsız dallan",
+            "Notation":"PC <- AR,SC <- 0"
+        },
+        {
+            "Code":"BSA", 
+            "Hex":"9",
+            "Descripton":"Dallan ve dönüş adresini kaydet",
+            "Notation":"M[AR] <- PC,AR <- AR + 1.PC <- AR,SC <- 0"
+        },
+        {
+            "Code":"ISZ", 
+            "Hex":"F",
+            "Descripton":"Arttır ve sonuç 0 ise sonraki buyruğu atla Increment and skip if zero",
+            "Notation":"DR <- M[AR].DR <- DR + 1.M[AR] <- DR, if(DR=0) then (PC <- PC + 1).SC <- 0"
+        }
+    ],
+    "RegisterReference":[
+        {
+            "Code":"CLA", 
+            "Hex":"1",
+            "Descripton":"AC'yi sil",
+            "Notation":"AC <- 0"
+        },
+        {
+            "Code":"SZA", 
+            "Hex":"2",
+            "Descripton":"Eğer AC 0 ise sonraki buyruğu atla",
+            "Notation":"If(AC = 0) then (PC <- PC + 1)"
+        },
+        {
+            "Code":"SNA", 
+            "Hex":"3",
+            "Descripton":"Eğer AC negatif ise sonraki buyruğu atla",
+            "Notation":"If(AC(15) = 1) then (PC <- PC + 1)"
+        },
+        {
+            "Code":"CMA", 
+            "Hex":"4",
+            "Descripton":"AC’yi tümle",
+            "Notation":"AC <- AC'"
+        },
+        {
+            "Code":"INC", 
+            "Hex":"5",
+            "Descripton":"AC’yi arttır",
+            "Notation":"AC <- AC + 1"
+        },
+        {
+            "Code":"ASHR", 
+            "Hex":"7",
+            "Descripton":"Aritmetik Sağa kaydırma",
+            "Notation":""
+        },
+        {
+            "Code":"ASHL", 
+            "Hex":"8",
+            "Descripton":"Aritmetik Sola kaydırma",
+            "Notation":""
+        },
+        {
+            "Code":"SZE", 
+            "Hex":"0",
+            "Descripton":"Eğer E 0 ise sonraki buyruğu atla",
+            "Notation":"If(E=0) then (PC <- PC + 1)"
+        },
+        {
+            "Code":"HLT", 
+            "Hex":"9",
+            "Descripton":"Bilgisayarı durdur",
+            "Notation":"S <- 0"
+        }
+    ],
+    "InputOutputReference":[
+        {
+            "Code":"INP", 
+            "Hex":"7/F",
+            "Descripton":"Input karakterini AC'ye yükle",
+            "Notation":""
+        }
+    ]
+    
+}

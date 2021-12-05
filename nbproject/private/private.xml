@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/AsmMain/DebuggerController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Registers/PC.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/LogicGatesController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/VirtualMachineController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Memory/StackSegment.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Registers/IR.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Memory/CodeSegment.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/RegisterController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Registers/SP.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/AsmMain/DebuggerWindow.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Registers/AC.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/AsmMain/Log.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/CoderController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/Command/Command.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/AsmMain/Main.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/AsmMain/DebuggerMiddleware.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Registers/AR.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/MemoryController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Memory/DataSegment.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/BusController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Root/Memory.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/ClockController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Registers/DR.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/Root/Register.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/VirtualMachine/CommandController.java</file>
+            <file>file:/C:/Users/omert/Documents/NetBeansProjects/AsmEmulator/src/Command/CommandType.java</file>
+        </group>
+    </open-files>
+</project-private>
