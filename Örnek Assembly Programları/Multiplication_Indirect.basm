@@ -1,0 +1,23 @@
+/multiply two positive numbers
+/using repeated addition method
+ORG C 2
+LDA X I /Load X indirectly
+CMA
+INC /2's compl of X
+STA X /Store AC to X
+CLA /Clear AC
+LDA Y I
+STA Y
+CLA
+LOP, ADD Y /Add Y to AC
+ISZ X /Increment X
+BUN LOP /Branch if X < 0
+STA RES /Store result if X=0
+HLT
+ORG D 6
+X, HEX 8
+Y, HEX 9
+HEX 3 /Multiplier
+HEX 2 /Multiplicand
+RES, DEC 0 /Result
+END
